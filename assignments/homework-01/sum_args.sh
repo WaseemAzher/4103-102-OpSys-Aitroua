@@ -4,7 +4,7 @@
 total=0
 for i in $@
 do
-	total = $(($total + $i))
+	total=$(($total + $i))
 done
 
 echo " the sum of all arguments is: $total"
